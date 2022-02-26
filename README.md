@@ -1,5 +1,5 @@
 # Person Project Api
-REST API for person and project membership management. First .NET implementation.
+REST API for person and project membership management. First ever .NET implementation.
 
 ## Instructions for trying out
 1. Run the project
