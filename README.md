@@ -19,4 +19,7 @@ REST API for person and project membership management. First .NET implementation
   * This will be done with Authorization Header which includes username and password in Base64 Format.
 
 [Swagger File](https://github.com/S1nd5/personproject_api/blob/main/swagger.json)
-Cloud deployement and API publification to be done.
+[Database File](https://github.com/S1nd5/personproject_api/blob/main/SQL_Server_Kanta.sql)
+
+I uploaded this in a hurry before weekend.
+Cloud deployement and API publification are still to be done. The plan is to deploy this API to the Azure Cloud.
