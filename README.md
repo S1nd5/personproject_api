@@ -29,6 +29,13 @@ REST API for person and project membership management. First .NET implementation
 4. /member endpoint
   * GET,POST,PUT,DELETE 
   * Authorization is reguired with Authorization Header (Base64 encoded string with the contents of username:password)
+
+#### Test User
+There should be already one user to test with. Username is: Testi and Password: 12345.
+
+> Base64 Encoded string for Authorization should be: VGVzdGk6MTIzNDU=
+
+> Use Authorization header: Basic VGVzdGk6MTIzNDU= in your requests to access restricted parts of the API.
  
 Check the API Documentation from the Swagger file, due to rush i haven't published it.
  
