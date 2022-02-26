@@ -18,8 +18,27 @@ REST API for person and project membership management. First .NET implementation
 * REST API Service with Basic Authentication
   * This will be done with Authorization Header which includes username and password in Base64 Format.
 
-[Swagger File](https://github.com/S1nd5/personproject_api/blob/main/swagger.json)
 [Database File](https://github.com/S1nd5/personproject_api/blob/main/SQL_Server_Kanta.sql)
 
-I uploaded this in a hurry before weekend.
-Cloud deployement and API publification are still to be done. The plan is to deploy this API to the Azure Cloud.
+### Rest API
+1. /user endpoint
+  * GET,POST,PUT,DELETE
+3. /project endpoint
+  * GET,POST,PUT,DELETE
+  * Authorization is reguired with Authorization Header (Base64 encoded string with the contents of username:password)
+4. /member endpoint
+  * GET,POST,PUT,DELETE 
+  * Authorization is reguired with Authorization Header (Base64 encoded string with the contents of username:password)
+ 
+Check the API Documentation from the Swagger file, due to rush i haven't published it.
+ 
+[Swagger File](https://github.com/S1nd5/personproject_api/blob/main/swagger.json)
+[Live Api Url](https://apiproject20220226091115.azurewebsites.net/api/user)
+
+Listed endpoints
+
+1. https://apiproject20220226091115.azurewebsites.net/api/user
+2. https://apiproject20220226091115.azurewebsites.net/api/project
+3. https://apiproject20220226091115.azurewebsites.net/api/member
+
+Project is Deployed to the Azure Cloud ( Azure App Service, Azure SQL )
