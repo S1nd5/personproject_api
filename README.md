@@ -7,8 +7,6 @@ REST API for person and project membership management. First .NET implementation
 3. Include authorization header with Basic Authentication (Base64 encoded string including username:password)
 4. Now you can use routes which need more permissions such as /project /member
 
-[Try it out here](#)
-
 ### Content
 
 * ASP.Net
